@@ -12,7 +12,6 @@ body{
 }
 
 nav{
-    width: 100%;
     background-color: rgb(26, 164, 199);
 }
 
@@ -27,13 +26,18 @@ nav li{
     float: left;
 }
 
-nav li a, #tituloNavBar{
+nav li a, #tituloMenu{
     display: block;
     font-size: 150%;
-    padding: 1.25em 0.75em;
+    padding: 1.25em 0.90em;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 230);
+}
+
+#tituloMenu{
+    background-color: rgb(255, 255, 230);
+    color: rgb(26, 164, 199);
 }
 
 nav li a:hover{
@@ -50,6 +54,9 @@ nav li a:hover{
 
 #titulo{
     text-align: center;
+    background-color: rgb(26, 164, 199);
+    color: rgb(255, 255, 230);
+    padding: 2%;
 }
 
 #titulo, .subtitulo{
@@ -59,21 +66,5 @@ nav li a:hover{
 #contenido p{
     margin-top: 3%;
     font-size: 110%;
-}
-
-#bandera_escudo{
-    margin-top: 5%;
-}
-
-#bandera_escudo li{
-    display: inline-block;
-    width: 20em;
-    height: 18em;
-    padding: 2% 5%;
-    text-align: center;
-}
-
-#bandera_escudo img{
-    width: inherit;
-    height: inherit;
+    text-align: justify;
 }
