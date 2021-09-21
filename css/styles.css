@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url('../imagenes/paisaje.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(26, 164, 199);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a, #tituloNavBar{
+    display: block;
+    font-size: 150%;
+    padding: 1.25em 0.75em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+nav li a:hover{
+    background-color: rgb(30, 138, 180);
+}
+
+#contenido{
+    width: 60%;
+    height: 100%;
+    margin: 5% auto;
+    padding: 2% 5% 4% 5%;
+    background-color: rgba(255, 255, 255, 0.900);
+}
+
+#titulo{
+    text-align: center;
+}
+
+#titulo, .subtitulo{
+    margin-top: 4%;
+}
+
+#contenido p{
+    margin-top: 3%;
+    font-size: 110%;
+}
+
+#bandera_escudo{
+    margin-top: 5%;
+}
+
+#bandera_escudo li{
+    display: inline-block;
+    width: 20em;
+    height: 18em;
+    padding: 2% 5%;
+    text-align: center;
+}
+
+#bandera_escudo img{
+    width: inherit;
+    height: inherit;
+}
