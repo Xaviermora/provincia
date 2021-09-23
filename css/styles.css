@@ -24,7 +24,7 @@ nav li{
     float: left;
 }
 
-nav li a, #tituloMenu{
+nav li a{
     display: block;
     font-size: 150%;
     padding: 1.10em 0.90em;
@@ -34,6 +34,11 @@ nav li a, #tituloMenu{
 }
 
 #tituloMenu{
+    display: block;
+    font-size: 150%;
+    padding: 1.10em 0.90em;
+    text-decoration: none;
+    text-align: center;
     background-color: rgb(255, 255, 230);
     color: rgb(26, 164, 199);
 }
