@@ -26,6 +26,7 @@ nav li{
 
 #tituloMenu{
     display: block;
+    font-family: 'Calistoga', cursive;
     font-size: 150%;
     padding: 1.10em 0.90em;
     text-decoration: none;
@@ -37,7 +38,7 @@ nav li{
 nav li a{
     display: block;
     font-size: 150%;
-    padding: 1.10em 0.90em;
+    padding: 1.20em 1.10em;
     text-decoration: none;
     text-align: center;
     color: rgb(255, 255, 230);
