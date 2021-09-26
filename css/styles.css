@@ -24,15 +24,6 @@ nav li{
     float: left;
 }
 
-nav li a{
-    display: block;
-    font-size: 150%;
-    padding: 1.10em 0.90em;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(255, 255, 230);
-}
-
 #tituloMenu{
     display: block;
     font-size: 150%;
@@ -41,6 +32,15 @@ nav li a{
     text-align: center;
     background-color: rgb(255, 255, 230);
     color: rgb(26, 164, 199);
+}
+
+nav li a{
+    display: block;
+    font-size: 150%;
+    padding: 1.10em 0.90em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 230);
 }
 
 nav li a:hover{
