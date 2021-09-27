@@ -1,16 +1,16 @@
 #bandera_escudo{
     margin-top: 5%;
+    text-align: center;
 }
 
 #bandera_escudo li{
     display: inline-block;
-    width: 20em;
+    width: 45%;
     height: 17em;
-    padding: 2% 5%;
     text-align: center;
 }
 
 #bandera_escudo img{
-    width: inherit;
+    width: 23em;
     height: inherit;
 }

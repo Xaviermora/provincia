@@ -13,6 +13,9 @@ body{
 
 nav{
     background-color: rgb(26, 164, 199);
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 nav ul{
@@ -26,9 +29,8 @@ nav li{
 
 #tituloMenu{
     display: block;
-    font-family: 'Calistoga', cursive;
-    padding: 1em 0.90em;
-    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    padding: 1.10em 1.10em;
     text-align: center;
     background-color: rgb(255, 255, 230);
     color: rgb(26, 164, 199);
@@ -36,7 +38,7 @@ nav li{
 
 nav li a{
     display: block;
-    font-size: 150%;
+    font-size: 1.5em;
     padding: 1.10em 1.10em;
     text-decoration: none;
     text-align: center;
@@ -50,7 +52,7 @@ nav li a:hover{
 main{
     width: 60%;
     height: 100%;
-    margin: 5% auto;
+    margin: 8% auto 3% auto;
     padding: 2% 5% 4% 5%;
     background-color: rgba(255, 255, 255, 0.900);
 }
@@ -68,6 +70,17 @@ main{
 
 main p{
     margin-top: 3%;
-    font-size: 110%;
+    font-size: 1.3em;
     text-align: justify;
+}
+
+footer{
+    background-color: rgb(26, 164, 199);
+    padding: 1.50em;
+    font-size: 1.2em;
+    color: rgb(255, 255, 230);
+}
+
+footer a, footer a:visited{
+    color: rgb(255, 255, 230);
 }
